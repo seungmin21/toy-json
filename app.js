@@ -6,5 +6,5 @@ const user = require('./route');
 app.use('/', user);
 
 app.listen(PORT, () => {
-  console.log(`http://localhost${PORT}`);
+  console.log(`http://localhost:${PORT}`);
 })
